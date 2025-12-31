@@ -479,31 +479,36 @@
 # For pop and peek methods we first check whether the stack is empty, to avoid exceptions.
 
 
-class Stack():
-    def __init__(self):
-        self.stack = list()
-    def push(self, item ):
-        self.stack.append(item) 
-    def pop(self):
-        if len(self.stack) > 0:
-            return self.stack.pop()
-        else:
-            return None
-    def peek(self):
-        if len(self.stack) > 0:
-            return self.stack[len(self.stack) -1 ]
-        else:
-            return None
-    def __str__(self):
-        return str(self.stack)
+# class Stack():
+#     def __init__(self):
+#         self.stack = list()
+#     def push(self, item ):
+#         self.stack.append(item) 
+#     def pop(self):
+#         if len(self.stack) > 0:
+#             return self.stack.pop()
+#         else:
+#             return None
+#     def peek(self):
+#         if len(self.stack) > 0:
+#             return self.stack[len(self.stack) -1 ]
+#         else:
+#             return None
+#     def __str__(self):
+#         return str(self.stack)
 
-s = Stack()
+# s = Stack()
 
-s.push(1)
-s.push(2)
-s.push(3)
+# s.push(1)
+# s.push(2)
+# s.push(3)
 
-print(s)
-print(s.pop())
-print(s.peek())
-print(s)
+# print(s)
+# print(s.pop())
+# print(s.pop())
+# print(s.pop())
+# print(s.peek())
+# print(s)
+
+
+# 
